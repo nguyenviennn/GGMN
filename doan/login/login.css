@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.web{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpaperaccess.com/full/1131169.jpg);
+    background-size: cover;
+}
+.form-login{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+.form-login-left{
+    width: 60%;
+    background-size: cover;
+    background-image: url(https://daihoc.fpt.edu.vn/user/images/bg-form-login.jpg);
+    background-size: cover;
+}
+.form-login-right{
+    width:40%;
+    margin: 10px;
+    margin: 30px;
+}
+.logo img {
+    width: 200px;
+    height: 50px;
+}
+
+.login-form > p{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.input{
+    outline:none;
+    border: 1px solid transparent;
+    background-color: #ecf0f1;
+    padding: 5px 10px;
+    border-radius:30px;
+    width: 100%;
+}
+.remember{
+    display: flex;
+    justify-content: flex-end;
+}
+.remember input{
+    margin-top: 7px;
+}
+.btn-login{
+    text-align: center;
+}
+.btn-login > button{
+    margin: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: black;
+    color: #ffffff;
+    border: none;
+    height: 32px;
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px 0px rgb(0 0 0 / 60%);
+}
+.forgot-password{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px) {
+    .form-login-left{
+        display: none;
+    }
+    .form-login-right{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    .form-login{
+        width: 80%;
+    }
+}
+
+

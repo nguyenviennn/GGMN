@@ -1,0 +1,159 @@
+a:hover{
+    text-decoration:none;
+}
+.fa-caret-left {
+    position: absolute;
+}
+
+.fa-caret-right {
+    position: absolute;
+}
+.banner1 img {
+    width: 100%;
+    margin-top: 85px;
+}
+.link {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.link a {
+    color: #dd8f22;
+    
+}
+
+.link a:hover {
+   color:#EE5A24;
+}
+
+.link p {
+    font-size: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+/* ----banner---- */
+.btn-more {
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: 1px solid #dd8f22;
+    color: #dd8f22;
+    font-weight: bold;
+}
+
+.btn-more:hover {
+    color: #fff;
+    background-color: #dd8f22;
+    transition: all .35s;
+    cursor: pointer;
+}
+.btn-more a{
+    width: 100%;
+    padding:10px 0;
+    transition: all 0.35s;
+}
+/* -------btn------ */
+.item {
+    background-color: #f2f2f2;
+}
+
+.item-item {
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.img-item {
+    overflow: hidden;
+    height:260px;
+}
+
+.item-item img {
+    transform: scale(1);
+    transition: all 0.35s;
+}
+
+.item-item img:hover {
+    transform: scale(1.2);
+    transition: all 0.35s;
+}
+
+.bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.item-bot h3 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #333;
+    overflow: hidden;
+    transition: all .35s;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.item-bot h3:hover {
+    color: #dd8f22;
+    transition: all .35s;
+}
+
+.item-bot {
+    padding: 10px;
+    background: #fff;
+    position: relative;
+}
+
+.bot span {
+    font-size: 13px;
+}
+
+.fa-gift {
+    color: #dd8f22;
+}
+.item-item{
+    display: flex;
+}
+.img-item{
+    width: 40%;
+    overflow: hidden;
+}
+.item-bot{
+    width: 60%;
+}
+.bot{
+    display: block;
+}
+.text-news{
+    font-size: 14px;
+    line-height: 24px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0 0 10px;
+}
+.img-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.more1{
+    width: 36%;
+}
+.more1:hover{
+    background-color: #dd8f22;
+    color: #fff;
+    cursor:pointer;
+    transition: .35s;
+}
+.more1 a:hover{
+    color: #fff;
+}
