@@ -246,7 +246,7 @@
             <div class="ring">
                 <div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show">
                     <div class="coccoc-alo-ph-circle"></div>
-                    <div class="coccoc-alo-ph-circle-fill"></div>
+                    <div class="coccoc-alo-ph-circle-fill">123123</div>
                     <div class="coccoc-alo-ph-img-circle"></div>
                 </div>
             </div>
